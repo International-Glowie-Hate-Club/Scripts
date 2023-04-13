@@ -1,0 +1,6 @@
+Syntax: URL Time ProxyList R/S UserAgentList
+
+Keep R/S at 64 or lower
+Add more UAs if needed, should be new, should only be actual browsers, not GoogleBot, BingBot or stuff
+Proxies should at least have 5seconds timeout
+URL Example >> https://sheesh.rip

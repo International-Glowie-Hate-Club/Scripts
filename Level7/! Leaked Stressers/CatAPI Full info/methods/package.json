@@ -1,0 +1,28 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "attack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pnyx",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
+    "dns": "^0.2.2",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.2",
+    "net": "^1.0.2",
+    "node-fetch": "^2.6.1",
+    "playwright": "^1.28.1",
+    "playwright-extra": "^4.3.5",
+    "puppeteer": "^16.1.0",
+    "puppeteer-extra": "^3.3.4",
+    "request": "^2.88.2",
+    "requests": "^0.3.0",
+    "user-agents": "^1.0.1211"
+  }
+}

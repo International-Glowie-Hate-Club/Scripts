@@ -1,0 +1,18 @@
+------ BROWSER ------
+
+1. cd BROWSER
+2. wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt-get install ./google-chrome-stable_current_amd64.deb -y && apt install python3-pip -y && pip3 install cloudscraper && pip3 install pysocks && pip3 install undetected_chromedriver
+
+------ TLS-VIP ------
+
+1. curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - && apt install nodejs && apt install npm
+
+----------------------
+
+If i missed smt pm me on tele send screenshot
+
+----------------------
+
+I only tested it on debian and ubuntu!
+
+^^ That's all you need to do 

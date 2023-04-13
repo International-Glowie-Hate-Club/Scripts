@@ -1,0 +1,9 @@
+connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: 'http.txt'
+
+     0K ...                                                    33.0M=0s
+
+2022-10-14 19:35:52 (33.0 MB/s) - 'http.txt' saved [3094]
+

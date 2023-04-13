@@ -1,0 +1,12 @@
+Usage:
+
+!!!!!!!! UBUNTU 20 !!!!!!!!
+apt update
+snap install node --classic
+npm install playwright playwright-extra
+npx playwright install
+npx playwright install-deps
+chmod +x flooder
+
+node play.js URL Time Threads Proxies
+node play.js https://sheesh.rip/ 120 5 http.txt

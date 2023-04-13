@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "events": "^3.3.0",
+    "fs": "0.0.1-security",
+    "http2": "^3.3.7",
+    "path": "^0.12.7",
+    "randomstring": "^1.2.2",
+    "sync-request": "^6.1.0",
+    "url": "^0.11.0"
+  }
+}

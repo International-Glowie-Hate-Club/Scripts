@@ -1,0 +1,4 @@
+nano /etc/hosts
+i gived one hosts.txt / just paste it.
+
+justevery love cats.

@@ -1,0 +1,82 @@
+71.10.21.242 <--- periodics home
+45.41.240.157 <--- periodics backend
+ ///  LEAKED BY @udp1337 t.me/cecilionetwork
+
+
+Periodicc@API# users list ///  LEAKED BY @udp1337 t.me/cecilionetwork
+     #         Username                   apikey              conns   maxtime   rank               Expire
+      1   xvi                  xvi235782785                   2       200       user    Wed Oct  5 21:25:29 UTC 2022
+      2   tangguo3             tangguo328735725               2       200       user    Fri Sep 30 18:55:09 UTC 2022
+      3   volt                 volt2387575                    3       300       user    Mon Oct 31 19:33:31 UTC 2022
+      4   lizardbeamer         lizardbeamer436476             3       200       user    Thu Oct  6 16:20:07 UTC 2022
+      5   ddosbotnettt         ddosbotnettt23582375           2       200       user    Tue Nov  8 16:08:17 UTC 2022
+      6   ms7                  ms723752765                    2       200       user    Thu Nov 10 18:39:09 UTC 2022
+      7   drifted              drifteed23527857               3       200       user    Tue Oct 25 22:59:28 UTC 2022
+      8   decisive             decisive235723875              2       200       user    Thu Nov 10 18:55:58 UTC 2022
+      9   darkwdw              darkwdw2785279539              3       500       user    Tue Nov 15 17:43:59 UTC 2022
+     10   kasp4rr              kasp4rr234782395278            6       1800      user    Tue Nov 15 15:18:38 UTC 2022
+     11   semtex               semtex1234783478               4       200       user    Tue Nov 22 01:37:16 UTC 2022
+     12   Buzz                 Buzz2387587235                 10      200       user    Thu Nov 24 19:40:04 UTC 2022
+     13   nyap                 nyap32878735                   2       200       user    Tue Nov 29 04:55:54 UTC 2022
+     14   blackgirl12          blackgirl12235223377889955     2       200       user    Mon Nov 28 07:47:40 UTC 2022
+     15   caomeixiongqaq       caomeixiongqaq327958378469     5       300       user    Tue Nov 29 07:04:05 UTC 2022
+     16   Backup               backup                         1       1         Admin   Sun Jul 27 02:59:46 UTC 2025
+     17   tcpdoggo             tcpdoggo23782539               2       200       user    Wed Nov 16 20:26:20 UTC 2022
+     18   archscplover         archscplover31248375           3       300       user    Sun Jul 27 23:53:52 UTC 2025
+     19   pog                  pog2378478325                  2       400       user    Mon Jul 28 00:59:54 UTC 2025
+     20   Lyra                 Lyra283575                     8       3600      user    Sun Feb 12 01:30:50 UTC 2023
+     21   graceresellddosser   graceresellddosser2357878235   6       300       user    Wed Nov  9 09:58:32 UTC 2022
+     22   nikelovexe           nikelovexe2385727385           5       500       user    Wed Dec  7 10:45:51 UTC 2022
+     23   mike                 mike1824735                    6       300       user    Tue Nov 29 20:00:03 UTC 2022
+     24   cxmp                 cxmp123                        1       10        user    Sat Nov 12 04:37:27 UTC 2022
+     25   Hexnew               Hexnew78482394672346723        10      1200      user    Sun Dec 11 04:41:41 UTC 2022
+     26   feen                 feen23457375                   2       300       user    Fri Nov 18 05:38:01 UTC 2022
+     27   periodic             periodic                       2       300       user    Sun Nov 13 01:24:05 UTC 2022
+     28   LeFrog               LeFrog12479123794              1       120       user    Mon Nov 21 17:06:03 UTC 2022
+     29   bnt                  bnt2375882375                  2       300       user    Wed Dec 14 21:28:40 UTC 2022
+     30   cookies              cookiespromo23978578932        8       300       user    Fri Feb 24 22:28:06 UTC 2023
+     31   zensu                zensu1234734                   2       200       user    Fri Feb 24 22:28:49 UTC 2023
+     32   udp123               udp217841278954723895          10      200       user    Mon Dec 19 01:26:46 UTC 2022
+     33   Ryonos               Ryonos7236762735               2       300       user    Tue Nov 22 18:26:33 UTC 2022
+     34   Benshii              Benshii4576457457              2       300       user    Mon Nov 28 21:51:20 UTC 2022
+     35   Spacey               Spacey5834858534               3       300       user    Mon Dec  5 04:33:22 UTC 2022
+     36   ghisnin              niggerbeater101                8       600       user    Thu Dec 29 02:48:03 UTC 2022
+     37   alibateman           alibateman2385238905238795     2       200       user    Thu Dec  8 03:54:41 UTC 2022
+     38   bennett              kintaro28397452795             5       120       user    Fri Mar 10 22:55:53 UTC 2023
+     39   say                  saytest                        99      9999999   user    Sun Mar 12 09:32:13 UTC 2023
+     40   murdoc               murdoc2385235                  8       600       user    Tue Jan  3 02:41:21 UTC 2023
+     41   Digit                Digit234785667348              3       300       user    Sun Dec 11 05:27:57 UTC 2022
+     42   fortnite             fortnite37523675               2       200       user    Mon Dec  5 05:34:38 UTC 2022
+     43   Yerim                Yerim2357927859729             4       300       user    Tue Mar 14 01:07:30 UTC 2023
+     44   Void                 Void2387582375                 2       200       user    Tue Dec  6 04:23:53 UTC 2022
+     45   wolf                 wolf3259345967                 3       300       user    Mon Dec 12 06:10:20 UTC 2022
+     46   Periodicc            periodiccc123                  999     9999999   Admin   Tue Mar 14 06:38:57 UTC 2023
+     48   udp1233123           udp1233123adw                  9999    3600      Admin    Sat Aug 30 07:17:12 UTC 2025
+
+Periodicc@API# list ssh ///  LEAKED BY @udp1337 t.me/cecilionetwork
+     #        Host        Port   Username   Password     Tag
+    --- ---------------- ------ ---------- ----------- -------
+     1   63.141.251.234   22     customer   cumcum123   uhh
+     2   184.72.115.3     22     root       periodic    ama
+     3   18.223.172.168   22     root       periodic    amz2
+     4   100.20.87.223    22     root       periodic    ama
+     5   43.205.125.145   22     root       periodic    amz
+     6   199.19.74.56     22     root       cumcum123   yerim
+     7   52.144.47.237    22     root       cumcum123   asd
+     8   138.128.246.61   22     root       cumcum123   ftg
+^these shit servers more than likely don't work.
+
+[+]========================[+] ///  LEAKED BY @udp1337 t.me/cecilionetwork
+            TEST
+            GET2
+            POST
+            QUERY
+            MIX
+            HTTPSOCKET
+            GET
+            stopallattacksmen
+            stop
+            HTTP
+            BYPASS
+[+]========================[+]
+ ///  LEAKED BY @udp1337 t.me/cecilionetwork

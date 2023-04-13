@@ -1,0 +1,23 @@
+127.0.0.1 localhost
+185.156.44.144 jsjjs-1
+
+# The following lines are desirable for IPv6 capable hosts
+::1 localhost ip6-localhost ip6-loopback
+
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+127.0.0.1 kanti.pw
+127.0.0.1 kanti.tk
+127.0.0.1 sh.kanti.pw
+127.0.0.1 thai.kanti.pw
+127.0.0.1 kanti.pw/
+127.0.0.1 api.kanti.pw
+127.0.0.1 discord.kanti.pw
+127.0.0.1 kanti.pw/kanweb/
+127.0.0.1 thai.kanti.pw/login
+127.0.0.1 discord.kanti.pw/
+127.0.0.1 portfolio.kanti.pw/
+127.0.0.1 www.kanti.pw
+127.0.0.1 api.kanti.pw
+127.0.0.1 portfolio.kanti.pw/certificates
