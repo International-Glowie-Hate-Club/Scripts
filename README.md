@@ -1,6 +1,10 @@
-# Scripts
-L4 = Home L7 = Webshits
-** GAY ANAL FART SEX FUNNY HAHAHAHAHAHHAHAHAHAHHAHAH**
+# Needs redoing
 
-> To use the chmod scripts do (linux vps) "chmod +777 *"
-> Then ./ALLAH-NUKE <ip> <port> <time>
+
+
+
+
+
+
+
+# With UbuntuAPI use the API in CENTOS but use the UBUNTUAPI install
